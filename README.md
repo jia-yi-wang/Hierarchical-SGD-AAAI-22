@@ -1,6 +1,6 @@
 ## Hierarchical Federated Learning
 
-This is the code for the paper entitled "Demystifying Why Local Aggregation Helps: Convergence Analysis of Hierarchical SGD".
+This is the code for the paper entitled "Demystifying Why Local Aggregation Helps: Convergence Analysis of Hierarchical SGD", by Jiayi Wang, Shiqiang Wang, Rong-Rong Chen, Mingyue Ji.
 
 ### Data and Model
 Dataset includes Cifar-10 and MNIST with IID and Non-IID options. It also includes FEMNIST and CelebA obtained from the LEAF framework (https://github.com/TalwalkarLab/leaf/tree/master/data) stored in the `dataset_files` folder. For CelebA, the raw images need to be downloaded separately (see https://github.com/jia-yi-wang/aistats21/blob/main/data_reader/celeba.py#L23 for details). 
